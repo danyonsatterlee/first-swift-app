@@ -17,16 +17,55 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sau-32-PHP">
-                                <rect key="frame" x="155" y="383" width="110" height="20"/>
+                                <rect key="frame" x="0.0" y="88" width="414" height="120"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
-                                <state key="normal" title="Hello World">
+                                <state key="normal" title="👾">
                                     <color key="titleColor" systemColor="systemIndigoColor"/>
-                                    <color key="titleShadowColor" systemColor="tertiaryLabelColor"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="70" scale="large" weight="medium"/>
                                 </state>
                                 <connections>
                                     <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XKg-yg-v7h"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gjU-Cd-xvh">
+                                <rect key="frame" x="0.0" y="327" width="414" height="120"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <state key="normal" title="🧜🏼‍♀️">
+                                    <color key="titleColor" systemColor="systemIndigoColor"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="70" scale="large" weight="medium"/>
+                                </state>
+                                <connections>
+                                    <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ubl-E6-ATi"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p8f-h1-Y1o">
+                                <rect key="frame" x="0.0" y="207" width="414" height="120"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemRedColor"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <state key="normal" title="🧛🏻">
+                                    <color key="titleColor" systemColor="systemIndigoColor"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="70" scale="large" weight="medium"/>
+                                </state>
+                                <connections>
+                                    <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qSY-7H-PpW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mgD-sq-bH3">
+                                <rect key="frame" x="0.0" y="446" width="414" height="120"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemRedColor"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <state key="normal" title="🧚🏻">
+                                    <color key="titleColor" systemColor="systemIndigoColor"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="70" scale="large" weight="medium"/>
+                                </state>
+                                <connections>
+                                    <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wqP-U4-4Je"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -46,11 +85,11 @@
         <systemColor name="systemIndigoColor">
             <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="systemYellowColor">
             <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="tertiaryLabelColor">
-            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
