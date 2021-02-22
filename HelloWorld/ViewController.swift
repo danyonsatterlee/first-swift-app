@@ -15,9 +15,14 @@ class ViewController: UIViewController {
         
     }
     @IBAction func showMessage(sender:UIButton) {
-        let alertController = UIAlertController(title: "Welcome to my first app", message: "HelloWorld", preferredStyle: UIAlertController.Style.alert)
-        alertController.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
-        present(alertController, animated: true, completion: nil)
+        let emojiDictionary: [String:String] = ["👾": "80s came icon", "🧛🏻": "vampire", "🧜🏼‍♀️": "mermaid","🧚🏻": "fairy"]
+        let selectedButton = sender
+        
+        if let wordToLookUp = selectedButton.titleLabel?.text {
+            for index in 0...4 {
+                emojiDictionary[index] === sender
+            }
+        }
     }
 
 }
